@@ -21,4 +21,4 @@ clean:
 	rm -rf *.o
 
 mrproper: clean
-	rm -rf $(EXEC)
+	rm -r $(EXEC)
